@@ -1,0 +1,40 @@
+name: Update profile activity
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Test renderer and privacy guards
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh aggregate metrics
+        env:
+          METRICS_READ_TOKEN: ${{ secrets.METRICS_READ_TOKEN }}
+        run: python3 scripts/update_activity.py
+      - name: Publish generated profile images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          git add -A -- 'assets/activity-auto-*.svg'
+          if git diff --cached --quiet; then
+            echo 'Profile metrics are already current.'
+            exit 0
+          fi
+          git commit -m 'Refresh profile activity'
+          git push
