@@ -29,14 +29,12 @@ I'm a backend developer based in Viana do Castelo, Portugal, focused on **Elixir
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
-  <img src="assets/activity-light.svg" alt="927 recorded commits, 125 pull requests opened, and 6 PR review contributions across all years, including anonymous private totals. Snapshot: 13 October 2026." width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-calendar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-calendar-light.svg">
+  <img src="assets/activity-calendar-light.svg" alt="GitHub activity: 930 lifetime commit contributions, 125 pull requests, and 6 reviews. Calendar: 930 contributions across 134 active days, 14 Oct 2025 – 13 Oct 2026, including anonymous private totals." width="832">
 </picture>
 
-<sub>Counts follow [GitHub's contribution rules](https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference). This is a dated snapshot, including anonymous private activity.</sub>
-
-**On GitHub since 21 March 2021.**
+<sub>Snapshot of [GitHub-recorded contributions](https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference). Calendar and active-day metrics cover the past year; headline totals cover all years.</sub>
 
 ### Reach me
 
