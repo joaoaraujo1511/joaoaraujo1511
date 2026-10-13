@@ -36,6 +36,8 @@ I'm a backend developer based in Viana do Castelo, Portugal, focused on **Elixir
 
 <sub>Counts follow [GitHub's contribution rules](https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference). This is a dated snapshot, including anonymous private activity.</sub>
 
+**On GitHub since 21 March 2021.**
+
 ### Reach me
 
 <p align="center">
