@@ -29,9 +29,9 @@ I'm a backend developer based in Viana do Castelo, Portugal, focused on **Elixir
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-auto-6812a42ca7bc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/activity-auto-6812a42ca7bc-light.svg">
-  <img src="assets/activity-auto-6812a42ca7bc-light.svg" alt="GitHub activity: 937 lifetime commit contributions, 126 pull requests opened, and 6 reviews. Public project languages and monthly contribution totals from September 2025 to 2026-10-15. Activity includes anonymous private totals. Updated 2026-10-15." width="832">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-auto-a3d683df720a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-auto-a3d683df720a-light.svg">
+  <img src="assets/activity-auto-a3d683df720a-light.svg" alt="GitHub activity: 937 lifetime commit contributions, 134 pull requests opened, and 6 reviews. Public project languages and monthly contribution totals from September 2025 to 2026-10-16. Activity includes anonymous private totals. Updated 2026-10-16." width="832">
 </picture>
 
 ### Reach me
